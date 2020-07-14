@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input {
+            display: inline-block;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+        #rus {
+            margin-bottom: 6px;
+        }
+        #eng {
+            margin-top: 6px;
+        }
+        button {
+            border: 1px solid #fff;
+            background: #f0f0f0;
+        }
+        button:hover {
+            border: 1px solid #b5b5b5;
+            background: #a3a3a3;
+        }
+    </style>
+    <label for="rus">rus</label>    
+    <input type="text" name="rus" id="rus">
+    <button id="clearInpRus">Очистить</button>
+    <br>
+    <label for="eng">eng</label>
+    <input type="text" name="eng" id="eng">
+    <button id="clearInpEng">Очистить</button>
+
+    <button id="translateBtn" style="display: block; margin: 16px 16px 16px 0; width: 200px;">перевод</button>
+    <p id="resultTranslate"></p>
+    <script src="/js/script.js"></script>
+</body>
+</html>
